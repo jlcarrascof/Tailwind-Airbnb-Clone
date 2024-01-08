@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jlcarrascof/Tailwind-Airbnb-Clone/issues"
   },
-  "homepage": "https://github.com/jlcarrascof/Tailwind-Airbnb-Clone#readme"
+  "homepage": "https://github.com/jlcarrascof/Tailwind-Airbnb-Clone#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
 }
