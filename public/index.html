@@ -12,7 +12,7 @@
     <header>
         <!-- Navbar -->
 
-        <div class="grid grid-cols-3 px-16 w-screen h-20 border-b-[1px] items-center">
+        <div class="grid grid-cols-3 px-16 w-screen h-20 border-b-[1px] items-center fixed top-0 bg-white">
             <img src="static/airbnb-logo.png" alt="Airbnb Logo" class="h-16 w-28">
             <div class="flex justify-evenly items-center border rounded-full shadow-md h-12 w-96">
                 <button class="border-r-2 text-sm font-medium px-4">Anywhere</button>
@@ -32,7 +32,7 @@
 
         <!-- Category bar -->
 
-        <div class="flex items-center h-24 space-x-5">
+        <div class="flex items-center h-24 space-x-5 top-20 fixed bg-white w-screen">
             <div class="flex items-center justify-center space-x-10">
                 <div class="flex flex-col items-center text-gray-400 hover:text-black gap-2 pl-16">
                     <img src="static/type1.jpeg" alt="" class="h-6 w-6">
@@ -92,7 +92,7 @@
 
         <!-- Price bar -->
 
-        <div class="flex justify-center">
+        <div class="flex justify-center mt-48">
             <div class=" flex justify-between items-center p-4 border rounded-xl w-[600px] h-16">
                 <div class="flex justify-start">
                     <p class="border-r-2 border-gray-100 pr-4 text-base font-medium">Display total price</p>
@@ -111,15 +111,180 @@
                 <div class="flex justify-between mt-2">
                     <p class="text-sm font-medium">Kralendijk, Caribe neerlandés</p>
                     <div class="flex">
+                        <!--
                         <i class="fa-solid fa-star"></i>
                         <p class="text-sm font-light">5.0</p>
+                        -->
                     </div>
                 </div>
                 <p class="text-sm text-gray-400">28 km hasta Parque Nacional</p>
                 <p class="text-sm text-gray-400">9 - 15 Enero</p>
                 <p class="text-sm font-medium mt-2">$1010 noche</p>
             </div>
+
+            <div class="flex flex-col h-96 w-72">
+                <img src="static/img2.png" alt="" class="w-72 h-64 rounded-xl" />
+                <div class="flex justify-between mt-2">
+                    <p class="text-sm font-medium">Kralendijk, Caribe neerlandés</p>
+                    <div class="flex">
+                        <i class="fa-solid fa-star"></i>
+                        <p class="pl-1 text-sm font-light">5.0</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-400">9 km hasta Parque Nacional</p>
+                <p class="text-sm text-gray-400">14 - 20 Enero</p>
+                <p class="text-sm font-medium mt-2">$1063 noche</p>
+            </div>
+
+            <div class="flex flex-col h-96 w-72">
+                <img src="static/img3.png" alt="" class="w-72 h-64 rounded-xl" />
+                <div class="flex justify-between mt-2">
+                    <p class="text-sm font-medium">Kralendijk, Caribe neerlandés</p>
+                    <div class="flex">
+                        <i class="fa-solid fa-star"></i>
+                        <p class="pl-1 text-sm font-light">Nuevo</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-400">27 km hasta Parque Nacional</p>
+                <p class="text-sm text-gray-400">12 - 17 Febrero</p>
+                <p class="text-sm font-medium mt-2">$287 noche</p>
+            </div>
+
+            <div class="flex flex-col h-96 w-72">
+                <img src="static/img4.png" alt="" class="w-72 h-64 rounded-xl" />
+                <div class="flex justify-between mt-2">
+                    <p class="text-sm font-medium">Salina Abou, Curacao</p>
+                    <div class="flex">
+                        <i class="fa-solid fa-star"></i>
+                        <p class="pl-1 text-sm font-light">4.92</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-400">18 km hasta Parque Nacional Christoffel</p>
+                <p class="text-sm text-gray-400">13 - 18 Enero</p>
+                <p class="text-sm font-medium mt-2">$573 noche</p>
+            </div>            
         </div>
+        
+        <div class="grid grid-cols-4">
+            <div class="flex flex-col h-96 w-72">
+                <img src="static/img1.png" alt="" class="w-72 h-64 rounded-xl" />
+                <div class="flex justify-between mt-2">
+                    <p class="text-sm font-medium">Kralendijk, Caribe neerlandés</p>
+                    <div class="flex">
+                        <!--
+                        <i class="fa-solid fa-star"></i>
+                        <p class="text-sm font-light">5.0</p>
+                        -->
+                    </div>
+                </div>
+                <p class="text-sm text-gray-400">28 km hasta Parque Nacional</p>
+                <p class="text-sm text-gray-400">9 - 15 Enero</p>
+                <p class="text-sm font-medium mt-2">$1010 noche</p>
+            </div>
+
+            <div class="flex flex-col h-96 w-72">
+                <img src="static/img2.png" alt="" class="w-72 h-64 rounded-xl" />
+                <div class="flex justify-between mt-2">
+                    <p class="text-sm font-medium">Kralendijk, Caribe neerlandés</p>
+                    <div class="flex">
+                        <i class="fa-solid fa-star"></i>
+                        <p class="pl-1 text-sm font-light">5.0</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-400">9 km hasta Parque Nacional</p>
+                <p class="text-sm text-gray-400">14 - 20 Enero</p>
+                <p class="text-sm font-medium mt-2">$1063 noche</p>
+            </div>
+
+            <div class="flex flex-col h-96 w-72">
+                <img src="static/img3.png" alt="" class="w-72 h-64 rounded-xl" />
+                <div class="flex justify-between mt-2">
+                    <p class="text-sm font-medium">Kralendijk, Caribe neerlandés</p>
+                    <div class="flex">
+                        <i class="fa-solid fa-star"></i>
+                        <p class="pl-1 text-sm font-light">Nuevo</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-400">27 km hasta Parque Nacional</p>
+                <p class="text-sm text-gray-400">12 - 17 Febrero</p>
+                <p class="text-sm font-medium mt-2">$287 noche</p>
+            </div>
+
+            <div class="flex flex-col h-96 w-72">
+                <img src="static/img4.png" alt="" class="w-72 h-64 rounded-xl" />
+                <div class="flex justify-between mt-2">
+                    <p class="text-sm font-medium">Salina Abou, Curacao</p>
+                    <div class="flex">
+                        <i class="fa-solid fa-star"></i>
+                        <p class="pl-1 text-sm font-light">4.92</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-400">18 km hasta Parque Nacional Christoffel</p>
+                <p class="text-sm text-gray-400">13 - 18 Enero</p>
+                <p class="text-sm font-medium mt-2">$573 noche</p>
+            </div>            
+        </div>
+
+        <div class="grid grid-cols-4">
+            <div class="flex flex-col h-96 w-72">
+                <img src="static/img1.png" alt="" class="w-72 h-64 rounded-xl" />
+                <div class="flex justify-between mt-2">
+                    <p class="text-sm font-medium">Kralendijk, Caribe neerlandés</p>
+                    <div class="flex">
+                        <!--
+                        <i class="fa-solid fa-star"></i>
+                        <p class="text-sm font-light">5.0</p>
+                        -->
+                    </div>
+                </div>
+                <p class="text-sm text-gray-400">28 km hasta Parque Nacional</p>
+                <p class="text-sm text-gray-400">9 - 15 Enero</p>
+                <p class="text-sm font-medium mt-2">$1010 noche</p>
+            </div>
+
+            <div class="flex flex-col h-96 w-72">
+                <img src="static/img2.png" alt="" class="w-72 h-64 rounded-xl" />
+                <div class="flex justify-between mt-2">
+                    <p class="text-sm font-medium">Kralendijk, Caribe neerlandés</p>
+                    <div class="flex">
+                        <i class="fa-solid fa-star"></i>
+                        <p class="pl-1 text-sm font-light">5.0</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-400">9 km hasta Parque Nacional</p>
+                <p class="text-sm text-gray-400">14 - 20 Enero</p>
+                <p class="text-sm font-medium mt-2">$1063 noche</p>
+            </div>
+
+            <div class="flex flex-col h-96 w-72">
+                <img src="static/img3.png" alt="" class="w-72 h-64 rounded-xl" />
+                <div class="flex justify-between mt-2">
+                    <p class="text-sm font-medium">Kralendijk, Caribe neerlandés</p>
+                    <div class="flex">
+                        <i class="fa-solid fa-star"></i>
+                        <p class="pl-1 text-sm font-light">Nuevo</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-400">27 km hasta Parque Nacional</p>
+                <p class="text-sm text-gray-400">12 - 17 Febrero</p>
+                <p class="text-sm font-medium mt-2">$287 noche</p>
+            </div>
+
+            <div class="flex flex-col h-96 w-72">
+                <img src="static/img4.png" alt="" class="w-72 h-64 rounded-xl" />
+                <div class="flex justify-between mt-2">
+                    <p class="text-sm font-medium">Salina Abou, Curacao</p>
+                    <div class="flex">
+                        <i class="fa-solid fa-star"></i>
+                        <p class="pl-1 text-sm font-light">4.92</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-400">18 km hasta Parque Nacional Christoffel</p>
+                <p class="text-sm text-gray-400">13 - 18 Enero</p>
+                <p class="text-sm font-medium mt-2">$573 noche</p>
+            </div>            
+        </div>
+
     </main>
 
     <footer>
