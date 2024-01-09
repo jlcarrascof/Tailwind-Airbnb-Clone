@@ -544,6 +544,19 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.mt-14 {
+  margin-top: 3.5rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -580,6 +593,14 @@ video {
   height: 1.75rem;
 }
 
+.h-96 {
+  height: 24rem;
+}
+
+.h-64 {
+  height: 16rem;
+}
+
 .w-20 {
   width: 5rem;
 }
@@ -610,6 +631,10 @@ video {
 
 .w-\[600px\] {
   width: 600px;
+}
+
+.w-72 {
+  width: 18rem;
 }
 
 .grid-cols-3 {
@@ -802,6 +827,10 @@ video {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-light {
+  font-weight: 300;
 }
 
 .text-gray-400 {
